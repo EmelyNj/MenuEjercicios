@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MenuEjercicios.MainPage"
+             Title="Menú"
+             >
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="10"
+            Spacing="10"
+            BackgroundColor="Black">
+            <Image
+                Source="titulo.png"
+                HeightRequest="200"
+                WidthRequest="400" />
+
+            <Label
+                Text="1. Aplicación en NET MAUI que muestre los número pares del 0 al 100" HorizontalOptions="Center" FontFamily="Times New Roman"/>
+            <Button Text="Ir al Ejercicio" x:Name="Eje1" Clicked="Eje1_Clicked" WidthRequest="150" BackgroundColor="BlueViolet" TextColor="White" FontFamily="Times New Roman"></Button>
+
+            <Label
+                Text="2. Aplicación en NET MAUI que muestre una cuenta regresiva de 10 a 1" HorizontalOptions="Center" FontFamily="Times New Roman"/>
+            <Button Text="Ir al Ejercicio" x:Name="Eje2" Clicked="Eje2_Clicked" WidthRequest="150" BackgroundColor="BlueViolet" TextColor="White" FontFamily="Times New Roman"></Button>
+
+            <Label
+                Text="3. Aplicación en NET MAUI que muestre las tablas de multiplicar del 1 al 10" HorizontalOptions="Center" FontFamily="Times New Roman"/>
+            <Button Text="Ir al Ejercicio" x:Name="Eje3" Clicked="Eje3_Clicked" WidthRequest="150" BackgroundColor="BlueViolet" TextColor="White" FontFamily="Times New Roman"></Button>
+
+
+            <Label
+                Text="4. Aplicación en NET MAUI que determine el sueldo semanal de un trabajador base a las horas que trabaja y el pago por hora que recibe"
+                HorizontalOptions="Center" FontFamily="Times New Roman"/>
+            <Button Text="Ir al Ejercicio" x:Name="Eje4" Clicked="Eje4_Clicked" WidthRequest="150" BackgroundColor="BlueViolet" TextColor="White" FontFamily="Times New Roman"></Button>
+            
+            <Label
+                Text="5. Aplicación en NET MAUI sobre 'La Langosta Ahumada' " HorizontalOptions="Center" FontFamily="Times New Roman"/>
+            <Button Text="Ir al Ejercicio" x:Name="Eje5" Clicked="Eje5_Clicked" WidthRequest="150" BackgroundColor="BlueViolet" TextColor="White" FontFamily="Times New Roman"></Button>
+
+            <Label
+                Text="6. Aplicación en NET MAUI de una empresa importadora que desea determinar cuantos dolares puede adquirir con X cantidad de dinero mexicano" 
+                HorizontalOptions="Center" FontFamily="Times New Roman"/>
+            <Button Text="Ir al Ejercicio" x:Name="Eje6" Clicked="Eje6_Clicked" WidthRequest="150" BackgroundColor="BlueViolet" TextColor="White" FontFamily="Times New Roman"></Button>
+            
+            
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
