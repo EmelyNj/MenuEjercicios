@@ -64,6 +64,14 @@
 
 	<ItemGroup>
 
+	  <MauiXaml Update="Langosta.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="NumImpar.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+
+
 	  <MauiXaml Update="Conversion.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -78,6 +86,7 @@
 	  <MauiXaml Update="TablasMultiplicar.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+
 
 	</ItemGroup>
 

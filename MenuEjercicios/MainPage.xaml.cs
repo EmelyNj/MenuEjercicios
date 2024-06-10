@@ -10,10 +10,14 @@
         }
 
 
-
+        /// <summary>
+        /// El evento clicked de los botones, realizan la acción de navegar a otras páginas 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Eje1_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new NumImpar());
         }
 
         private void Eje2_Clicked(object sender, EventArgs e)
@@ -33,7 +37,7 @@
 
         private void Eje5_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new Langosta());
         }
 
         private void Eje6_Clicked(object sender, EventArgs e)
