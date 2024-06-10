@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MenuEjercicios.Conversion"
+             Title="Conversion">
+    <VerticalStackLayout
+        BackgroundColor="Black">
+        <Button HorizontalOptions="Start" TextColor="White" FontFamily="Times New Roman" Text="Volver" Clicked="Button_Clicked"/>
+        <Label 
+            Text="Convertir Pesos Mexicanos a Dólares!"
+            FontSize="20" 
+            FontFamily="Times New Roman"
+            HorizontalOptions="Center" />
+        <Entry Placeholder="Inserte cantidad de pesos" TextColor="White" FontFamily="Times New Roman" x:Name="ePeso"/>
+        <Entry Placeholder="Resultado en dólares" TextColor="White" FontFamily="Times New Roman" x:Name="eDolar"/>
+        <Button Text="Calcular" HorizontalOptions="Center" x:Name="btnCalcular" Clicked="btnCalcular_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>

@@ -18,7 +18,7 @@
 
         private void Eje2_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new CuentaRegresiva());
         }
 
         private void Eje3_Clicked(object sender, EventArgs e)
@@ -38,7 +38,7 @@
 
         private void Eje6_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new Conversion());
         }
     }
 
