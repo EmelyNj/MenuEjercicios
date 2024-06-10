@@ -69,12 +69,7 @@
 	  <MauiXaml Update="CuentaRegresiva.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-		<MauiXaml Update="SueldoSemanal.xaml">
-			<Generator>MSBuild:Compile</Generator>
-		</MauiXaml>
-		<MauiXaml Update="TablasMultiplicar.xaml">
-			<Generator>MSBuild:Compile</Generator>
-		</MauiXaml>
+	
 	</ItemGroup>
 
 </Project>
