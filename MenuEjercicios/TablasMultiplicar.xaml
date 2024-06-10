@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MenuEjercicios.TablasMultiplicar"
+             Title="Tablas de Multiplicar">
+
+    <!--<Summary>
+    <Createddate> 5 de Junio del 2024 </Createddate>
+    <Company> M Programmers </Company>
+    <lastmodificationdate> 10 de Junio del 2024</lastmodificationdate>
+    <Lastmodificationdescription>
+    Se modifico el color del background del Entry num, asi como el color de texto.
+    </Lastmodificationdescription>
+    <Lastmodifierautor>Emely Nájera</Lastmodifierautor>
+    </Summary>-->
+    
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="8"
+            Spacing="5">
+
+            <Label Text="Ingrese un número del 1 al 10" HorizontalTextAlignment="Center"></Label>
+            <Entry x:Name="num" WidthRequest="110" BackgroundColor="LightGray" TextColor="Black"></Entry>
+
+            <Entry x:Name="r1" WidthRequest="110"></Entry>
+            <Entry x:Name="r2" WidthRequest="110"></Entry>
+            <Entry x:Name="r3" WidthRequest="110"></Entry>
+            <Entry x:Name="r4" WidthRequest="110"></Entry>
+            <Entry x:Name="r5" WidthRequest="110"></Entry>
+            <Entry x:Name="r6" WidthRequest="110"></Entry>
+            <Entry x:Name="r7" WidthRequest="110"></Entry>
+            <Entry x:Name="r8" WidthRequest="110"></Entry>
+            <Entry x:Name="r9" WidthRequest="110"></Entry>
+            <Entry x:Name="r10" WidthRequest="110"></Entry>
+
+            <Button
+                x:Name="Obtener"
+                Text="Calcular" 
+                Clicked="Obtener_Clicked"
+                HorizontalOptions="Center" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

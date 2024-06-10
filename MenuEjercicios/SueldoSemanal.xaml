@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MenuEjercicios.SueldoSemanal"
+             Title="Sueldo Semanal">
+
+    <!--<Summary>
+ <Createddate> 6 de Junio del 2024 </Createddate>
+ <Company> M Programmers </Company>
+ <lastmodificationdate> 10 de Junio del 2024</lastmodificationdate>
+ <Lastmodificationdescription>
+ Se modifico el nombre del boton "x:Name="Calcular""
+ </Lastmodificationdescription>
+ <Lastmodifierautor>Emely Nájera</Lastmodifierautor>
+ </Summary>-->
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="10">
+           
+
+            <Label
+                Text="Ingrese pago recibido" HorizontalOptions="Center" />
+            <Entry x:Name="Pago" WidthRequest="200"></Entry>
+
+            <Label
+                Text="Ingrese las horas trabajadas" HorizontalOptions="Center"/>
+            <Entry x:Name="Horas" WidthRequest="200"></Entry>
+
+            <Label
+                Text="El sueldo por del trabajador es de: " HorizontalOptions="Center"/>
+            <Entry x:Name="Sueldo" WidthRequest="200"></Entry>
+
+            <Button
+                x:Name="Calcular"
+                Text="Calcular" 
+                Clicked="Calcular_Clicked"
+                HorizontalOptions="Center" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
