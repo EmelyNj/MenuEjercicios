@@ -4,7 +4,17 @@
              x:Class="MenuEjercicios.MainPage"
              Title="Menú"
              >
-
+    <!--<Summary>
+        <Createddate> 06 Jun. 2024 </createddate>
+            <company> M Programmers</company>
+            <lastmodificationdate> 10 Jun. 2024</lastmodificationdate>
+            <lastmodificationdescription>
+                    Ultima Modificación :  Agregue la navegacion en el evento clicked de
+                    los botones, Ejercicio 1 y Ejercicio 5
+             </lastmodificationdescription>
+            <lastmodifierautor>  Estrella Orellana</lastmodifierautor>
+        </Summary>-->
+    
     <ScrollView>
         <VerticalStackLayout
             Padding="10"
