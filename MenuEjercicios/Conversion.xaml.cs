@@ -34,7 +34,7 @@ public partial class Conversion : ContentPage
         }
         else
         {
-            DisplayAlert("Error", "Por favor introduza datos", "Ok");
+            DisplayAlert("Error", "Por favor introduzca datos", "Ok");
         }
     }
 
